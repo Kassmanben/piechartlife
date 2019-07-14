@@ -113,32 +113,32 @@ export default {
     font-size: large;
   }
 
-  input{
+  input {
     border: 0;
     font-family: inherit;
     font-size: inherit;
     background-color: transparent
   }
 
-  .home{
+  .home {
     width: 40%;
     display:inline-block
   }
 
-  .categories{
+  .categories {
     padding: 0 0 1em;
   }
 
-  .category{
+  .category {
     display: grid;
     grid-template-columns: .1fr .4fr 1fr 1fr;
   }
 
-  .category:hover{
+  .category:hover {
     background-color: #eeeeee
   }
 
-  .color{
+  .color {
     color: transparent;
     background-color: rgb(253, 209, 221);
     padding: 0 20px;
@@ -146,33 +146,36 @@ export default {
     grid-column: 2;
   }
 
-  .remaining-percentage{
+  .remaining-percentage {
     margin: 10px 0;
   }
 
-  .update-button{
+  .update-button {
     vertical-align: middle; 
     color: #757575;
     margin: 0 6px;
   }
 
-  .disabled{
+  .disabled {
     color: #eeeeee;
   }
 
-  .deleteCategory{
-    grid-column:1;
+  .deleteCategory {
+    grid-column: 1;
+    margin: 3px 0 0 0;
   }
 
-  .name{
+  .name {
     grid-column: 3;
     text-overflow:ellipsis;
   }
 
-  .percentage{
+  .percentage {
     grid-column: 4;
     text-align: left;
+    margin: 3px 0 0 0;
   }
+
   @media only screen and (max-width: 600px) {
   .home {
     width: 100%;

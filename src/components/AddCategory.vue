@@ -135,6 +135,7 @@ export default {
         background-color: #e9dff7;
         grid-column: 1;
         grid-row: 1/5;
+        -webkit-appearance: none;
     }
 
     .btn:disabled {
@@ -151,14 +152,14 @@ export default {
     .categories, .custom, .percentage{
         flex: 1 1 auto;
         border-radius: 5px;
+        background-color: white;
     }
 
     .categories, .color, .custom, .percentage{
         margin: 0 10px;
-        background-color: white;
     }
 
-    .color{
+    .color {
         width:1.75em;
     }
 
